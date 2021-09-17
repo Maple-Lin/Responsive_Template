@@ -1,0 +1,155 @@
+/* 修改container 的最大宽度为1280 根据设计稿来做 */
+@media screen and (min-width: 1280px){
+  .container {
+    width: 1280px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+header {
+  padding: none!important;
+}
+.logo {
+  background-color: #898989;
+
+}
+.logo img{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo span {
+  display: block;
+  color: #fff;  
+  padding: 10px 0;
+  font-size: 25px;
+  text-align: center;
+}
+.nav {
+  background-color: #eee;
+}
+@media screen and (max-width: 991px) {
+  .nav li {
+    float: left;
+    width: 20%;
+  }
+}
+@media screen and (max-width:  767px) {
+  .new {
+    margin: 0!important;
+  }
+  .nav li a {
+    font-size: 11px;
+    padding-left: 2px;
+  }
+  .new li:nth-child(1) {
+    width: 100%!important;
+  }
+  .new li {
+    width: 50%!important;
+  }
+}
+.nav a {
+  display: block; 
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+.nav li:hover {
+  background-color: #fff;
+}
+.nav a::before {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+/* col-ms-two */
+
+article ul {
+  padding: 0!important;
+}
+.new {
+  margin: 25px 0;
+}
+.new li {
+  float: left;
+  width: 25%;
+  height: 128px;
+  padding: 0 5px 5px 0;
+  box-shadow: 0 4px 12px 0 rgb(52 73 94 / .5);
+}
+.new li:first-child {
+  width: 50%;
+  height: 256px;  
+  padding-right: 10px;
+}
+.new li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.new li a img {
+  width: 100%;
+  height: 100%;
+}
+.new li span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 13px;
+  color: #fff;
+  line-height: 25px;
+}
+.new li:first-child  span{
+  height: 41px;
+  font-size: 20px;
+  line-height: 41px;
+}
+
+/* publish */
+.publish {
+  border-top: 1px solid #ccc;
+}
+.publish .row{
+  border-bottom: 1px solid #ccc;
+}
+.publish .pic img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+}
+/* col-sm-three */
+.banner img {
+  width: 100%;
+}
+.hot {
+  padding: 0 20px 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+.hot span {
+  border-radius: 0;
+}
+.hot h4 {
+  padding-top: 10px;
+  font-weight: 700;
+}
